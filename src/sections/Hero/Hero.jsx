@@ -48,7 +48,7 @@ function Hero() {
                 I'm a frontend developer with a passion for building user-friendly and visually appealing applications.
             </p>
             <a href={CV}>
-                <button className='hover'>
+                <button className="hover">
                     Resume
                 </button>
             </a>
