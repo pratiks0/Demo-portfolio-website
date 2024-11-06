@@ -32,7 +32,7 @@ function Hero() {
                 <br />
                 Singh
             </h1>
-            <h2>Frontend Developer</h2>
+            <h2>Full Stack Developer</h2>
             <span>
                 <a href="https://x.com/prat1k_s" target='_blank'>
                 <img src={twitterIcon} alt="twitter icon" />
@@ -45,7 +45,7 @@ function Hero() {
                 </a>
             </span>
             <p className={styles.description}>
-                I'm a frontend developer with a passion for building user-friendly and visually appealing applications.
+                I'm a full stack developer with a passion for building user-friendly and visually appealing applications.
             </p>
             <a href={CV}>
                 <button className="hover">

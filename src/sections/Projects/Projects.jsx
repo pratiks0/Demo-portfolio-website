@@ -1,8 +1,9 @@
-import styles from './ProjectStyles.module.css';
-import viberr from '../../assets/viberr-removebg-preview.png';
-import freshBurger from '../../assets/realogo-removebg-preview.png';
-import fitLift from '../../assets/fitlift-removebg-preview.png';
-import ProjectCard from '../../common/ProjectCard';
+import styles from "./ProjectStyles.module.css";
+import threed from "../../assets/3d.png";
+import freshBurger from "../../assets/realogo-removebg-preview.png";
+import book from "../../assets/book.png";
+import juice from "../../assets/juice.png";
+import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
   return (
@@ -15,14 +16,19 @@ function Projects() {
           h3="Real Estate"
         />
         <ProjectCard
-          src={viberr}
-          link="https://endearing-marigold-97e1af.netlify.app/"
-          h3="Sputifi"
+          src={threed}
+          link="https://3diphonewebgi.netlify.app"
+          h3="3d iPhone"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://youtu.be/dQw4w9WgXcQ?si=mX8yj6vEcy9WOFNw"
-          h3="FitLift"
+          src={book}
+          link="https://book-store-seven-brown.vercel.app"
+          h3="Book Store"
+        />
+        <ProjectCard
+          src={juice}
+          link="https://iridescent-haupia-cf780c.netlify.app"
+          h3="Naturalist"
         />
       </div>
     </section>
