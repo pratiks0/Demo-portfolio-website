@@ -1,6 +1,6 @@
 import styles from "./ProjectStyles.module.css";
 import threed from "../../assets/3d.png";
-import freshBurger from "../../assets/realogo-removebg-preview.png";
+import real from "../../assets/real.png";
 import book from "../../assets/book.png";
 import juice from "../../assets/juice.png";
 import ProjectCard from "../../common/ProjectCard";
@@ -11,7 +11,7 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={freshBurger}
+          src={real}
           link="https://real-estate-website-mocha-eta.vercel.app/"
           h3="Real Estate"
         />
