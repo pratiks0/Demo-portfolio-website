@@ -20,7 +20,7 @@ function Skills() {
       </div>
       <hr />
       <div className={styles.skillList}>
-      <SkillList src={checkMarkIcon} skill="php" />
+      <SkillList src={checkMarkIcon} skill="Figma" />
         <SkillList src={checkMarkIcon} skill="React" />
         <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
       </div>
