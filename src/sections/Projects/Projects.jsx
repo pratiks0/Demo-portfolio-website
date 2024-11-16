@@ -4,6 +4,7 @@ import real from "../../assets/real.png";
 import book from "../../assets/book.png";
 import juice from "../../assets/juice.png";
 import ProjectCard from "../../common/ProjectCard";
+import pinterest from "../../assets/Pinterest.png";
 
 function Projects() {
   return (
@@ -24,6 +25,11 @@ function Projects() {
           src={book}
           link="https://book-store-seven-brown.vercel.app"
           h3="Book Store"
+        />
+        <ProjectCard
+          src={pinterest}
+          link="https://github.com/pratiks0/pinterest-clone"
+          h3="Pinteresr Clone"
         />
         <ProjectCard
           src={juice}
