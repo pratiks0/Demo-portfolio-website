@@ -20,7 +20,7 @@
       margin: 0;
 
       img {
-        width: 30px;
+        width: 60px;
       }
     }
   }
@@ -60,7 +60,7 @@
 .colorMode {
   position: absolute;
   right: 0;
-  width: 25px;
+  width: 45px;
 }
 
 .colorMode:hover {
