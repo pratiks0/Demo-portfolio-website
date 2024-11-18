@@ -21,6 +21,7 @@ function Hero() {
 
 
   return (
+    <>
     <section id='hero' className={styles.container}>
         <div className={styles.colorModeContainer}>
             <img className={styles.hero} src={heroImg} alt="profile pic" />
@@ -54,6 +55,16 @@ function Hero() {
             </a>
         </div>
     </section>
+    <div
+        style={{
+          width: '80%',
+          height: '2px',
+          backgroundColor: '#ccc',
+          margin: '40px auto',
+          borderRadius: '5px',
+        }}
+      ></div>
+    </>
   )
 }
 

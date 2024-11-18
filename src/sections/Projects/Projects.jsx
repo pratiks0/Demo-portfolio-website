@@ -8,6 +8,7 @@ import pinterest from "../../assets/Pinterest.png";
 
 function Projects() {
   return (
+    <>
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
@@ -38,6 +39,16 @@ function Projects() {
         />
       </div>
     </section>
+    <div
+        style={{
+          width: '80%',
+          height: '2px',
+          backgroundColor: '#ccc',
+          margin: '40px auto',
+          borderRadius: '5px',
+        }}
+      ></div>
+      </>
   );
 }
 

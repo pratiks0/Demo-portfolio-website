@@ -9,6 +9,7 @@ function Skills() {
   const checkMarkIcon = theme === 'light' ? checkMarkIconLight : checkMarkIconDark;
 
   return (
+    <>
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
       <div className={styles.skillList}>
@@ -30,6 +31,16 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Bootstrap" />
       </div>
     </section>
+    <div
+        style={{
+          width: '80%',
+          height: '2px',
+          backgroundColor: '#ccc',
+          margin: '40px auto',
+          borderRadius: '5px',
+        }}
+      ></div>
+    </>
   );
 }
 
