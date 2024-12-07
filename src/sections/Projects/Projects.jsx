@@ -30,7 +30,7 @@ function Projects() {
         <ProjectCard
           src={pinterest}
           link="https://github.com/pratiks0/pinterest-clone"
-          h3="Pinteresr Clone"
+          h3="Pinterest Clone"
         />
         <ProjectCard
           src={juice}
