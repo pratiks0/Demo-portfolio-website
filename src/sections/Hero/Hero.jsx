@@ -46,7 +46,7 @@ function Hero() {
                 </a>
             </span>
             <p className={styles.description}>
-                I'm a full stack developer with a passion for building user-friendly and visually appealing applications.
+                I&apos;m a full stack developer with a passion for building user-friendly and visually appealing applications.
             </p>
             <a href={CV}>
                 <button className="hover">
